@@ -1,0 +1,36 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 1024px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: white;
+  height: 130px;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: black;
+  font-family: cursive;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: white;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}

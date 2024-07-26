@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Story component should render the component correctly and match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex items-center justify-center h-full w-full bg-black relative"
+  >
+    <img
+      alt="Story"
+      class="max-h-full max-w-full object-cover"
+      src="test-image.jpg"
+      style="opacity: 0; will-change: opacity,transform; transform: translateX(300px);"
+    />
+    <div
+      class="absolute left-0 top-0 h-full w-1/2 cursor-pointer"
+      data-testid="left-half"
+    />
+    <div
+      class="absolute right-0 top-0 h-full w-1/2 cursor-pointer"
+      data-testid="right-half"
+    />
+    <div
+      class="absolute top-0 left-0 h-1 bg-red-500"
+      data-testid="progress-bar"
+      style="width: 50%; transition: width 0.1s linear;"
+    />
+    <div
+      class="absolute top-2 left-4 right-4 flex items-center justify-between"
+    >
+      <div
+        class="text-white text-lg bg-transparent px-2 py-1 rounded"
+      >
+        Test Story
+      </div>
+      <div
+        class="p-2 cursor-pointer"
+        data-testid="close-button"
+      >
+        <i
+          class="text-white text-2xl"
+          icon="[object Object]"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
