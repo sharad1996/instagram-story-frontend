@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest",
-    "start": "npm run dev"
+    "test": "jest"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
