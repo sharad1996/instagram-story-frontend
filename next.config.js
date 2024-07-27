@@ -1,5 +1,5 @@
 module.exports = {
   experimental: {
-    incrementalCacheHandlerPath: './custom-cache-handler.js'
+    cacheHandler: './custom-cache-handler.js',
   },
 };
