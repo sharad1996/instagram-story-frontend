@@ -16,7 +16,7 @@ const StoryList: React.FC = () => {
   useEffect(() => {
     const fetchStories = async () => {
       try {
-        const response = await fetch('https://instagram-story-backend.onrender.com/api/stories');
+        const response = await fetch('/api/stories');
         const data = await response.json();
         setStories(data);
         setViewedStories(Array(data.length).fill(false));
