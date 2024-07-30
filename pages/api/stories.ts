@@ -1,5 +1,3 @@
-// pages/api/stories.ts
-
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 interface Story {
